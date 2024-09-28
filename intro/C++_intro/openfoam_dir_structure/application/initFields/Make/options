@@ -1,0 +1,9 @@
+EXE_INC = \
+-I/opt/openfoam9/src/finiteVolume/lnInclude \
+-I/opt/openfoam9/src/meshTools/lnInclude
+
+EXE_LIBS = \
+    -lfiniteVolume \
+    -lfvModels \
+    -lfvConstraints \
+    -lmeshTools

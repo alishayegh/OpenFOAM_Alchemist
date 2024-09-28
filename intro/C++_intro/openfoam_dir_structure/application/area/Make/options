@@ -1,0 +1,5 @@
+EXE_INC= -I../../src/circle
+EXE_LIBS = \
+-L/home/maalik/OpenFOAM/maalik-9/platforms/linux64GccDPInt32Opt/lib \
+-lcircle
+
